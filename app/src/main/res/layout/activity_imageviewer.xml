@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/media_pager" android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <com.viewpagerindicator.UnderlinePageIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/forget_password_text_selector" android:gravity="center" android:layout_gravity="bottom" android:id="@id/txt_save_to_phone" android:background="#802f93aa" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/save_deal" />
+</FrameLayout>

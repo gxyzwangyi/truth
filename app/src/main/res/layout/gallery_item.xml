@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/frame_queue" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/image_queue" android:layout_width="@dimen/gallary_image_size" android:layout_height="@dimen/gallary_image_size" android:src="@drawable/no_media" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+        </FrameLayout>
+        <View android:id="@id/image_uploaded" android:background="#802f93aa" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:gravity="center" android:layout_gravity="bottom|right|center" android:id="@id/image_queue_multi_selected" android:background="@drawable/checkbox_on_focus" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:scaleType="center" android:contentDescription="@string/app_name" />
+    </FrameLayout>
+</LinearLayout>

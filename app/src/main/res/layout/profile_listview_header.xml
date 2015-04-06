@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/linearLayout_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/profile_bg" android:layout_width="fill_parent" android:layout_height="205.0dip">
+        <ImageView android:id="@id/account_avatar" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="36.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="21.0sp" android:textColor="#ffffffff" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/account_avatar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/deals_func_nav" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/button_mydeals" android:background="#ff666566" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_margin="3.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textStyle="italic" android:textColor="#fffefefe" android:id="@id/button_text_deals_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#fffefefe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/deals" android:layout_below="@id/button_text_deals_count" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/button_like" android:background="#ff666566" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_margin="3.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textStyle="italic" android:textColor="#fffefefe" android:id="@id/button_text_like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#fffefefe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LIKE" android:layout_below="@id/button_text_like_count" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/button_reply" android:background="#ff666566" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_margin="3.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textStyle="italic" android:textColor="#fffefefe" android:id="@id/button_text_reply_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#fffefefe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replies" android:layout_below="@id/button_text_reply_count" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

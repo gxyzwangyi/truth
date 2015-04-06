@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height">56.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin">9.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">14.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abc_action_bar_title_text_size">18.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="activity_login_text_editor_margin_left">210.0dip</dimen>
+    <dimen name="activity_main_drawer_width">480.0dip</dimen>
+    <dimen name="gallary_image_size">180.0dip</dimen>
+    <dimen name="map_search_circle">570.0dip</dimen>
+    <dimen name="slogan_text_size">20.0sp</dimen>
+</resources>

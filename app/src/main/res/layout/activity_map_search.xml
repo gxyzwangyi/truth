@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+        <SearchView android:id="@id/search_box" android:background="#3e2f92a8" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <weee.com.getweee.ui.TintableButton android:layout_gravity="right|center" android:id="@id/btn_fly_to_mylocation" android:background="@drawable/ic_current_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom|right|center" android:orientation="vertical" android:id="@id/layout_prgressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress_bar" android:background="@*android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/searching_store" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:background="@drawable/fullmap_mark" android:layout_width="@dimen/map_search_circle" android:layout_height="@dimen/map_search_circle" />
+</FrameLayout>
