@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="activity_login_text_editor_margin_left">100.0dip</dimen>
-    <dimen name="activity_main_drawer_width">260.0dip</dimen>
-    <dimen name="gallary_image_size">115.0dip</dimen>
-    <dimen name="map_search_circle">335.0dip</dimen>
-    <dimen name="slogan_text_size">16.0sp</dimen>
-</resources>
